@@ -80,7 +80,24 @@ def edit():
             f.write(f"{c[i]}")
     print("\nDone") 
     
+def rmv():
+    print("REMOVE TASK".center(50,"-"))
+    print()        
     
+    display()
+    print('\n')
+    id=int(input('Select the task : '))
+    with open("task.txt","r",encoding="utf-8") as f:
+        c=f.readlines()
+        if((id-1)<len(c)):
+            c.remove(c[id-1])
+        else:
+            print("Invalid Input")
+            exit()
+    with open("task.txt","w",encoding="utf-8") as f:  
+        for i in range(len(c)):            
+            f.write(f"{c[i]}")
+    print("\nDone")    
             
 
 def man():
@@ -101,6 +118,8 @@ def man():
                 edit()
             case "4":
                 status()
+            case "5":
+                rmv()
             case _:
                 break
-man() 
+man()
