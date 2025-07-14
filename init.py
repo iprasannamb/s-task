@@ -105,7 +105,7 @@ def man():
         print()
         print("TASK MANAGER".center(50,"-"))
         print()
-        print('1.Add Task\n2.Display Task(s)\n3.Edit Task\n4.Update Status')     
+        print('1.Add Task\n2.Display Task(s)\n3.Edit Task\n4.Update Status\n5.Remove')     
         print()
         ask=input("Select your choice :")
         print()
