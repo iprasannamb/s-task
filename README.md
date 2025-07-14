@@ -2,7 +2,7 @@
 
 > A sleek and intuitive command-line task management application built in Python
 
-**Features at a glance:** Add, display, edit, and update tasks with persistent storage
+**Features at a glance:** Add, display, edit,update and remove tasks with persistent storage
 
 ## ✨ Features
 
@@ -10,6 +10,7 @@
 - **Display Tasks**: View all tasks with their current status (Done/Not Done)
 - **Edit Tasks**: Modify existing task descriptions
 - **Update Status**: Toggle task completion status between Done and Not Done
+- **Remove Tasks**: Remove existing task
 - **Persistent Storage**: Tasks are saved to a text file (`task.txt`) for persistence
 
 ## 🛠️ Requirements
@@ -39,6 +40,7 @@ python init.py
 | **2** | **Display Tasks** - Shows all tasks with their current status and index numbers |
 | **3** | **Edit Task** - Select a task by number and modify its description |
 | **4** | **Update Status** - Toggle a task's completion status between Done and Not Done |
+| **5** | **Remove Task** - Select a task by number and remove it |
 
 ### Example Workflow
 
