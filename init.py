@@ -100,7 +100,7 @@ def rmv():
     print("\nDone")    
             
 
-def man():
+def main():
     while(True):
         print()
         print("TASK MANAGER".center(50,"-"))
@@ -122,4 +122,4 @@ def man():
                 rmv()
             case _:
                 break
-man()
+main()
